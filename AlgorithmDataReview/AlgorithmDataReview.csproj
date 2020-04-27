@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5EB263A8-7375-418E-A6FA-8BA071FE9471}</ProjectGuid>
+    <ProjectGuid>{F36A3673-C8CB-4B36-A716-1CB272E3708C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmAndDataStudying</RootNamespace>
-    <AssemblyName>AlgorithmAndDataStudying</AssemblyName>
+    <RootNamespace>AlgorithmDataReview</RootNamespace>
+    <AssemblyName>AlgorithmDataReview</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSortingTest.cs" />
-    <Compile Include="InsertionSortTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectionSortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
