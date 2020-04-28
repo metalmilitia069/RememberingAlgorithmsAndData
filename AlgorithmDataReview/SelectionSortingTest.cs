@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AlgorithmDataReview
 {
     class SelectionSortingTest
-    {
+    {       
         public static void SelectSort(int[] array)
         {
             for (int wallIndex = array.Length-1; wallIndex > 0; wallIndex--)
