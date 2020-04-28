@@ -15,7 +15,8 @@ namespace AlgorithmDataReview
             //BubbleSortingTest.BubbleSort(arromba);
             //SelectionSortingTest.SelectSort(arromba);
             //InsertSortingTest.InsertSorting(arromba);
-            ShellSortingTest.ShellSort(arromba);
+            //ShellSortingTest.ShellSort(arromba);
+            //MergeSortingTest.MergeSort(arromba);
 
 
             foreach (var item in arromba)

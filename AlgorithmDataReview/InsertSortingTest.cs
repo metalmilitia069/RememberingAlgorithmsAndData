@@ -14,7 +14,7 @@ namespace AlgorithmDataReview
             {
                 int temp = array[wallIndex];
                 int i = 0;
-                for (i = wallIndex; i > 0 && array[i-1] > temp; i--)
+                for (i = wallIndex; i > 0 && array[i - 1] > temp; i--)
                 {
                     array[i] = array[i - 1];
                 }

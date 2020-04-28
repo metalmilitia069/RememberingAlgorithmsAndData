@@ -8,13 +8,14 @@ namespace AlgorithmDataReview
 {
     class BubbleSortingTest
     {
+
         public static void BubbleSort(int[] array)
         {
-            for (int wallIndex = array.Length-1; wallIndex > 0; wallIndex--)
+            for (int wallIndex = array.Length - 1; wallIndex > 0; wallIndex--)
             {
                 for (int i = 0; i < wallIndex; i++)
                 {
-                    if (array[i] > array[i+1])
+                    if (array[i] > array[i + 1])
                     {
                         Swap(array, i, i + 1);
                     }

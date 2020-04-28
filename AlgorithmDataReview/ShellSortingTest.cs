@@ -12,64 +12,23 @@ namespace AlgorithmDataReview
         {
             int gap = 1;
 
-            while (gap <= array.Length/3)
-            {                
-                gap *= 3;
+            while (gap < array.Length / 3)
+            {
+                gap = 3 * gap;
             }
-
-            int count = 0;
 
             while (gap >= 1)
             {
-                count++;
-                Print(array);
-                Console.Write("counter: " + count);
-                Console.WriteLine();
                 for (int i = gap; i < array.Length; i++)
                 {
-                    Print(array);
-                    count++;
-                    Console.Write("counter: " + count);
-                    Console.WriteLine();
-                    for (int j = i; j >= gap && array[j] < array[j-gap]; j--)
+                    for (int j = i; j >= gap && array[j] < array[j - gap]; j -= gap)
                     {
                         Swap(array, j, j - gap);
-                        Print(array);
-                        count++;
-                        Console.Write("counter: " + count);
-                        Console.WriteLine();
                     }
                 }
 
                 gap /= 3;
             }
-           
-
-
-
-            //int gap = 1;
-
-            //while (gap < array.Length/3)
-            //{
-            //    gap = 3 * gap ;
-            //}//gap = 9
-
-
-            //while (gap >= 1)
-            //{
-            //    Print(array);
-            //    for (int i = gap; i < array.Length; i++)
-            //    {
-            //        Print(array);
-            //        for (int j = i; j >= gap && array[j] < array[j-gap]; j -= gap)
-            //        {
-            //            Swap(array, j, j - gap);
-            //            Print(array);
-            //        }
-            //    }
-
-            //    gap /= 3;
-            //}
         }
 
         private static void Swap(int[] array, int i, int j)
