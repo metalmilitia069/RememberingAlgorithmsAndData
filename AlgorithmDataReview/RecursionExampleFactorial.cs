@@ -8,14 +8,12 @@ namespace AlgorithmDataReview
 {
     class RecursionExampleFactorial
     {
-
         public static int RecursiveFactorialTest(int number)
         {
             if (number == 0)
             {
                 return 1;
             }
-
             return number * RecursiveFactorialTest(number - 1);
         }
         
