@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BubbleSortingTest.cs" />
     <Compile Include="InsertSortingTest.cs" />
+    <Compile Include="ListTest.cs" />
     <Compile Include="MergeSortingTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -18,7 +18,7 @@ namespace AlgorithmDataReview
             //InsertSortingTest.InsertSorting(arromba);
             //ShellSortingTest.ShellSort(arromba);            
             //MergeSortingTest.MergeSort(arromba);
-            //QuickSortingTest.QuickSort(arromba);
+            QuickSortingTest.QuickSort(arromba);
 
 
             Console.WriteLine("Final Array");
@@ -27,6 +27,11 @@ namespace AlgorithmDataReview
                 Console.Write(item + " ");
             }
 
+            Console.WriteLine();
+
+
+            ListTest.Run();
+            ListTest.ApiMembers();
 
 
 
