@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace AlgorithmDataReview
             public string Name { get; set; }
             public DateTime BirthDate { get; set; }
         }
+
         public static void Run()
         {
             List<int> list = new List<int>();
@@ -41,6 +43,13 @@ namespace AlgorithmDataReview
         {
             var list = new List<int>() { 1, 0, 5, 3, 4 };
             list.Sort();
+
+            int indexBinarySearch = list.BinarySearch(3);
+
+            list.Reverse();
+
+            ReadOnlyCollection<int> readOnlyList = list.AsReadOnly();
+            int[] array = list.ToArray();
 
             var listCustomers = new List<Customer>()
             {

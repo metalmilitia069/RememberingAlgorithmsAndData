@@ -43,16 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayBasedStackTest.cs" />
     <Compile Include="BubbleSortingTest.cs" />
+    <Compile Include="DoublyLinkedListTest.cs" />
+    <Compile Include="DoublyNodeTest.cs" />
     <Compile Include="InsertSortingTest.cs" />
+    <Compile Include="LinkedListBasedStackTest.cs" />
     <Compile Include="ListTest.cs" />
     <Compile Include="MergeSortingTest.cs" />
+    <Compile Include="NodeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickSortingTest.cs" />
     <Compile Include="RecursionExampleFactorial.cs" />
     <Compile Include="SelectionSortingTest.cs" />
     <Compile Include="ShellSortingTest.cs" />
+    <Compile Include="SinglyLinkedListTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
