@@ -125,34 +125,36 @@ namespace AlgorithmDataReview
 
             //Stack Using LinkedLists!!!!
 
-            var stack1 = new LinkedListBasedStackTest<int>();
+            //var stack1 = new LinkedListBasedStackTest<int>();
 
-            stack1.Push(9);
-            stack1.Push(8);
-            stack1.Push(7);
-            stack1.Push(6);
-            stack1.Push(5);
-            stack1.Push(4);
-            stack1.Push(3);
+            //stack1.Push(9);
+            //stack1.Push(8);
+            //stack1.Push(7);
+            //stack1.Push(6);
+            //stack1.Push(5);
+            //stack1.Push(4);
+            //stack1.Push(3);
 
-            Console.WriteLine("1st Iteration Over the Stack: ");
-            foreach (var item in stack1)
-            {
-                Console.WriteLine(item);
-            }
+            //Console.WriteLine("1st Iteration Over the Stack: ");
+            //foreach (var item in stack1)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-            Console.WriteLine($"Item on the Top of the Stack: {stack1.Peek()}");
+            //Console.WriteLine($"Item on the Top of the Stack: {stack1.Peek()}");
 
-            stack1.Pop();            
+            //stack1.Pop();            
 
-            Console.WriteLine("2nd Iteration Over the Stack: ");
-            foreach (var item in stack1)
-            {
-                Console.WriteLine(item);
-            }
+            //Console.WriteLine("2nd Iteration Over the Stack: ");
+            //foreach (var item in stack1)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-            Console.WriteLine($"Item on the Top of the Stack: {stack1.Peek()}");
+            //Console.WriteLine($"Item on the Top of the Stack: {stack1.Peek()}");
 
+
+            //######################################################################## QUEUES
 
 
 
