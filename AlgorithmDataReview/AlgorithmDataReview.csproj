@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayBasedQueue.cs" />
     <Compile Include="ArrayBasedStackTest.cs" />
     <Compile Include="BubbleSortingTest.cs" />
     <Compile Include="DoublyLinkedListTest.cs" />

@@ -156,6 +156,47 @@ namespace AlgorithmDataReview
 
             //######################################################################## QUEUES
 
+            //Linear Queues Based on Arrays!!!!!
+
+            //var queue1 = new ArrayBasedQueue<int>();
+
+            //queue1.Enqueue(1);
+            //queue1.Enqueue(4);
+            //queue1.Enqueue(5);
+            //queue1.Enqueue(2);
+            //queue1.Enqueue(3);
+            //queue1.Enqueue(6);
+
+            //Console.WriteLine(queue1.Peek());
+
+            //Console.WriteLine();
+
+            //foreach (var item in queue1)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //queue1.Dequeue();
+            //Console.WriteLine();
+            //Console.WriteLine(queue1.Peek());
+            //Console.WriteLine();
+
+            //foreach (var item in queue1)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //queue1.Dequeue();
+            //Console.WriteLine();
+            //Console.WriteLine(queue1.Peek());
+            //Console.WriteLine();
+
+            //foreach (var item in queue1)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Circular Queues Based on Arrays!!!!!
 
 
 
