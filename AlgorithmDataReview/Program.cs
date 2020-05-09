@@ -194,10 +194,43 @@ namespace AlgorithmDataReview
             //foreach (var item in queue1)
             //{
             //    Console.WriteLine(item);
+                
             //}
+
+            //Console.WriteLine(queue1.GetEnumerator());
 
             //Circular Queues Based on Arrays!!!!!
 
+            var queueCircular01 = new CircularQueueArrayBasedTest<int>();
+
+            queueCircular01.Enqueue(50);
+            queueCircular01.Enqueue(4);
+            queueCircular01.Enqueue(5);
+            queueCircular01.Enqueue(8);
+            queueCircular01.Enqueue(11);
+            queueCircular01.Enqueue(43);
+
+            foreach (var item in queueCircular01)
+            {
+                Console.WriteLine(item);
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine(queueCircular01.Peek());
+
+            queueCircular01.Dequeue();
+
+            Console.WriteLine();
+            Console.WriteLine(queueCircular01.Peek());
+
+            Console.WriteLine();
+
+            foreach (var item in queueCircular01)
+            {
+                Console.WriteLine(item);
+
+            }
 
 
             //ListTest.Run();

@@ -46,6 +46,7 @@
     <Compile Include="ArrayBasedQueue.cs" />
     <Compile Include="ArrayBasedStackTest.cs" />
     <Compile Include="BubbleSortingTest.cs" />
+    <Compile Include="CircularQueueArrayBasedTest.cs" />
     <Compile Include="DoublyLinkedListTest.cs" />
     <Compile Include="DoublyNodeTest.cs" />
     <Compile Include="InsertSortingTest.cs" />
