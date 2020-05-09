@@ -194,7 +194,7 @@ namespace AlgorithmDataReview
             //foreach (var item in queue1)
             //{
             //    Console.WriteLine(item);
-                
+
             //}
 
             //Console.WriteLine(queue1.GetEnumerator());
@@ -234,6 +234,53 @@ namespace AlgorithmDataReview
 
 
             //Queue With LINKED LISTS!!!!!!!!!!!
+
+
+            //QueueBasedOnLinkedList<int> queuemozo = new QueueBasedOnLinkedList<int>();
+
+            //queuemozo.Enqueue(9);
+            //queuemozo.Enqueue(8);
+            //queuemozo.Enqueue(7);
+            //queuemozo.Enqueue(6);
+            //queuemozo.Enqueue(5);
+            //queuemozo.Enqueue(4);
+            //queuemozo.Enqueue(3);
+
+            //foreach (var item in queuemozo)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            //queuemozo.Dequeue();
+
+            //Console.WriteLine();
+
+            //Console.WriteLine(queuemozo.Peek());
+
+            //Console.WriteLine();
+
+            //queuemozo.Dequeue();
+
+            //foreach (var item in queuemozo)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+
+            //######################################################################## Searching Algorithms - LINEAR SEARCH
+
+
+
+
+
+
+
+
+
+
+
 
 
 
